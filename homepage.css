@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+#topbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 0 2px 5px #ccc;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  padding: 16px 70px;
+  box-sizing: border-box;
+}
+
+#left-menu {
+  display: flex;
+  align-items: center;
+}
+
+#left-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+#logo {
+  font-size: 36px;
+  font-weight: 400;
+  margin-right: 16px;
+  text-transform: uppercase;
+}
+
+#logo span {
+  font-weight: 800;
+}
+
+#left-menu > a {
+  margin-left: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#search-wrapper {
+  width: 400px;
+  position: relative;
+}
+
+#search-wrapper i {
+  position: absolute;
+  top: 25%;
+  left: 18px;
+  color: rgb(104, 104, 104);
+  font-size: 18px;
+}
+
+#search-box {
+  width: 100%;
+  border: 1px solid rgb(245, 242, 242);
+  border-radius: 2px;
+  background-color: rgb(245, 242, 242);
+  padding: 10px 24px 8px 48px;
+  box-sizing: border-box;
+}
+
+#right-menu {
+  display: flex;
+  align-items: center;
+}
+
+#cart-wrapper {
+  position: relative;
+  margin-right: 32px;
+}
+
+#cart-count {
+  width: 18px;
+  /* height: 18px; */
+  margin: 0;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  font-size: 10px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #009688;
+  color: white;
+}
+
+#cart-wrapper i {
+  font-size: 18px;
+  color: black;
+}
+
+#right-menu > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
