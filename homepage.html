@@ -14,6 +14,10 @@
       src="https://kit.fontawesome.com/c5fd81660d.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <title>Shopping Lane</title>
   </head>
   <body>
@@ -23,11 +27,11 @@
           <div id="logo">
             <a href="/homepage.html"><span>Shop</span>lane</a>
           </div>
-          <a href="#clothing-section">Clothing</a>
-          <a href="#accessory-section">Accessories</a>
+          <a href="#clothing">Clothing</a>
+          <a href="#accessories">Accessories</a>
         </div>
         <div id="search-wrapper">
-          <i class="fas fa-search"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
           <input
             id="search-box"
             type="text"
@@ -38,12 +42,62 @@
         <div id="right-menu">
           <div id="cart-wrapper">
             <p id="cart-count"></p>
-            <a href=""><i class="fas fa-shopping-cart"></i></a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
           </div>
-          <img src="./Assets/dp.jpg" />
+          <img src="./Assets/dp.jpg" alt="Profile Picture" />
         </div>
       </nav>
     </header>
+
+    <main>
+      <section>
+        <div class="slide">
+          <img src="./Assets/96OnkX7.png" />
+          <img src="./Assets/KtGxwnN.png" />
+          <img src="./Assets/sfjg9R8.png" />
+          <img src="./Assets/p0wdadG.png" />
+        </div>
+      </section>
+      <section id="clothing" class="homepage-section">
+        <h2 class="section-heading">Clothing for Men and Women</h2>
+        <div class="product-container" id="clothing-grid"></div>
+      </section>
+      <section id="accessories" class="homepage-section">
+        <h2 class="secction-heading">Accessories for Men and Women</h2>
+        <div class="product-container" id="accessories-grid"></div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p class="footer-heading">Online Store</p>
+        <a href="#clothing" class="footer-link">Men Clothing</a>
+        <a href="#clothing" class="footer-link">Women Clothing</a>
+        <a href="#accessories" class="footer-link">Men Accessories</a>
+        <a href="#accessories" class="footer-link">Women Accessories</a>
+      </div>
+      <div>
+        <p class="footer-heading">Helpful Links</p>
+        <a href="./homepage.html" class="footer-link">Home</a>
+        <a href="/homepage.html" class="footer-link">About</a>
+        <a href="/homepage.html" class="footer-link">Contact</a>
+      </div>
+      <div>
+        <p class="footer-heading">Partners</p>
+        <a href="/homepage.html" class="footer-link">Zara</a>
+        <a href="/homepage.html" class="footer-link">Pantaloons</a>
+        <a href="/homepage.html" class="footer-link">Levis</a>
+        <a href="/homepage.html" class="footer-link">UCB</a>
+        <a href="/homepage.html" class="footer-link">+ Many More</a>
+      </div>
+      <div>
+        <p class="footer-heading">Address</p>
+        <p class="footer-link">Guru Oodu</p>
+        <p class="footer-link">Central</p>
+        <p class="footer-link">Chengalpattu</p>
+        <p class="footer-link">India</p>
+      </div>
+    </footer>
+
     <script src="./homepage.js"></script>
   </body>
 </html>
