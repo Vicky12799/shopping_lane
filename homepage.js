@@ -45,7 +45,7 @@ function createProductCard(data){
     mainDiv.className = 'product-card'
     
     var productLink = document.createElement('a');
-    productLink.href = '/product.html?p='+data.id;
+    productLink.href = '/product/product.html?p='+data.id;
     var productImage = document.createElement('img');
     productImage.className='product-image';
     productImage.src = data.preview;
